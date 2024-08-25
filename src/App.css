@@ -1,0 +1,523 @@
+
+
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  background-color: black;
+  font-size: 40px;
+  color: aliceblue;
+  font-family: "Rubik";
+}
+/* img{
+  height: 200px;
+  width:200px;
+} */
+@keyframes mydisp {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+.backGround_image{
+  /* transition: 1000ms; */
+  /* background-image: url("./Images/form_21.jpg"); */
+  height: 100%;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+
+
+  /* animation: mydisp 5s; */
+
+
+
+  /* transition-timing-function: ease-in-out; */
+}
+img{
+  /* object-fit: cover; */
+  height: 10%;
+}
+.uhmmm{
+  object-fit: cover;
+  position: fixed;
+  height: 100%;
+  width:100%;
+  z-index: -1;
+  opacity: 0;
+  /* transition: 1000ms; */
+  transition-duration: 1000ms;
+  transition-timing-function: ease-in-out;
+
+}
+
+
+.Invisible_class{
+  opacity: 1;
+  /* transition-timing-function: ease-in-out; */
+  /* transition: 1000ms; */
+}
+                                                                                      .button_of_king {background-color: black;
+                                                                                      color: white;}
+.main_content{
+  height: auto;
+  width:100vw;
+  display: flex;
+  justify-content: center;
+
+
+}
+#inside_main_container{
+  box-shadow: 0px 0px 10px 4px white;
+  padding:40px;
+  background-color: transparent;
+  /* background-color: rgb(221, 0, 255,0.3); */
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+#login_info{
+  text-align: center;
+  border: 4px solid cyan;
+  padding:10px;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+}
+.conditions{
+  display: none;
+}
+/* input */
+/* 
+input{
+  border: 2px red solid;
+} */
+
+.main_of_main{
+  display: flex;
+  /* flex-direction: column; */
+  gap:20px;
+
+}
+#inside_main_container{
+  /* margin-top: 200px; */
+  margin-bottom: 100px;
+}
+.logger{
+  text-align: center;
+}
+button{
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 20px;
+  color: black;
+  font-size: 20px;
+  background-color: white;
+  font-family: "Rubik";
+  width: 100%;
+
+}
+::placeholder {
+  font-family: "Rubik";
+  color: rgba(255, 255, 255, 0.607);
+}
+input{
+  /* padding: 10px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: transparent;
+  /* box-shadow: 0px 0px 7px 1px rgb(219, 255, 255); */
+  border: 2px white solid;
+  /* box-shadow: 0px 0px 7px 1px rgb(219, 255, 255); */
+  font-family: "Rubik";
+  width:93%;
+  color: white;
+}
+input:hover{
+  box-shadow: 0px 0px 7px 1px rgb(219, 255, 255);
+}
+.conditions{
+
+  font-size: 20px;
+  /* background-color: rgb(120, 255, 255); */
+
+  padding: 5px;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+#emial_iomput{
+  margin-bottom: 10px;
+}
+
+
+
+
+
+.Emial_input_section,.User_input_section,.Pass_input_section{
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(30px);
+  padding-left:20px;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border:  4px white solid;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.Tiles_of_title{
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  /* border-bottom: 4px solid white; */
+}
+/* .User_input_section{
+  background-color: transparent;
+  padding: 10px;
+  box-shadow: 0px 0px 5px 3px white;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.Pass_input_section{
+  background-color: transparent;
+  padding: 10px;
+  box-shadow: 0px 0px 5px 3px white;
+  margin-bottom: 20px;
+  border-radius: 20px;
+} */
+
+button{
+
+  transition: 0.5s;
+  cursor: pointer;
+
+}
+button:hover{
+  background-color: black;
+  color: white;
+} 
+
+input::-ms-reveal,input::-ms-clear {
+  display: none;
+}
+
+.Headdig{
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 40px;
+  font-weight: 500;
+  border-bottom: 9px double white;
+  padding-bottom: 8px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.button_not_so_far{
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  /* border: 15px purple solid; */
+  margin-top: 20px;
+}
+
+.not_button{
+  margin-top: 25px;
+  font-weight: 500;
+}
+.img_change_button{
+  max-width:130px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+.inside_button_not_so_far{
+
+  /* border: 15px red solid; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.inside_input_man{
+  /* position: fixed; */
+  /* z-index: 99;
+  top:76px;
+  right:9%; */
+  font-size: 30px;
+  cursor: pointer;
+
+
+}
+#Pass_iomput{
+  margin-bottom: 0px;
+  margin-right: 0px;
+  /* width:100px; */
+  padding-left: 10px;
+  padding-right: 0px;
+  border: 0;
+  width: 93%;
+}
+#Pass_iomput:hover{
+  /* box-shadow: 0px 0px 0px 7px 1px rgba(219, 255, 255,0); */
+  box-shadow: 0px 0px 7px 1px rgba(219, 255, 255,0);
+}
+.apple_is_mango{
+  /* border: 10px solid green; */
+  display: flex;
+  align-items: center;
+}
+.input_of_apple_is_mango{
+  /* border: 10px solid rgb(15, 0, 128); */
+  height: fit-content;
+  width: fit-content;
+  width: 93%;
+
+}
+.haahhohoho{
+  display: flex;
+  /* justify-content: space-between; */
+
+  border-radius: 20px;
+  border: 2px white solid;
+  /* height: ; */
+  /* padding-left: 10px; */
+  padding-right: 10px;
+  
+  margin-bottom: 10px;
+ 
+  /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////ridiculus//////////////////// */
+   font-size: 0px;
+  /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////ridiculus//////////////////// */
+}
+
+.haahhohoho:hover{
+  box-shadow: 0px 0px 7px 1px rgb(219, 255, 255);
+}
+
+
+              /* Welcome page css */
+
+
+              .Apple_Tree{
+                background-color: transparent;
+                backdrop-filter:blur(20px);
+                box-shadow: 0px 0px 10px 10px white;
+                border-radius: 20px;
+                padding: 20px;
+                /* margin-top: 100px; */
+                margin-left: 100px;
+                margin-right: 100px;
+                margin-bottom: 70px;
+                width: 600px;
+              }
+
+              .main_content_2{
+                display: flex;
+              justify-content: center;
+              
+              }
+              .inside_Apple_tree{
+                text-align: center;
+              
+              }
+              .apple_sun{
+                margin-top: 25px;
+                margin-bottom:100px;
+              }
+              .apple_moon{
+                margin-bottom:20px;
+              }
+
+
+
+                                        @media only screen and (max-width:780px){
+                                          .apple_sun{
+                                            font-size: 35px;
+                                            margin-bottom:80px;
+                                          }
+                                          .apple_moon{
+                                            font-size: 35px;
+                                          }
+                                        
+
+                                        }
+
+
+                                                                        @media only screen and (max-width:656px){
+                                                                          #inside_main_container{
+                                                                          margin-right: 60px;
+                                                                          margin-left: 60px;  
+                                                                          }
+                                                                          .img_change_button{
+                                                                            font-size: 15px;
+                                                                            padding: 10px;
+                                                                            max-width:110px;
+                                                                          }
+                                                                          .Headdig{
+                                                                            margin-left: 20px;
+                                                                            margin-right: 20px;
+                                                                          }
+                                                                        }
+                                                                        @media only screen and (max-width:567px){
+                                                                          #inside_main_container{
+                                                                            min-width: 300px;
+                                                                          }
+                                                                          .Headdig{
+                                                                            margin-left: 20px;
+                                                                            margin-right: 20px;
+                                                                            font-size: 25px;
+                                                                          }
+                                                                          .Tiles_of_title{
+                                                                            font-size: 20px;
+                                                                          }
+                                                                          input {
+                                                                            font-size: 13px
+                                                                          }
+                                                                          button{
+                                                                            font-size: 17px;
+                                                                          }
+                                                                          .not_button{
+                                                                            margin-top: 15px;
+                                                                          }
+                                                                          .conditions {
+                                                                            font-size: 17px;
+                                                                          }
+                                                                          .inside_input_man{
+                                                                            font-size: 25px;
+                                                                            top:73px;
+                                                                            
+                                                                          }
+                                                              /* welcome page media queries */
+
+                                                                          .apple_sun{
+                                                                            font-size: 30px;
+                                                                            margin-bottom:80px;
+                                                                          }
+                                                                          .apple_moon{
+                                                                            font-size: 30px;
+                                                                          }
+                                                                          .Apple_Tree{
+                                                                            margin-right: 65px;
+                                                                            margin-left: 65px;
+                                                                          }
+
+
+
+                                                                        }
+                                                                        @media only screen and (max-width:466px){
+                                                                          #inside_main_container{
+                                                                            min-width: 200px;
+                                                                            padding-left: 20px;
+                                                                            padding-right: 20px;
+                                                                          }
+                                                                          .Headdig{
+                                                                            margin-left: 10px;
+                                                                            margin-right: 10px;
+                                                                            font-size: 30px;
+                                                                          }
+                                                                          input {
+                                                                            width: 89%;
+                                                                            padding-left: 10px;
+                                                                            padding-right: 10px;
+                                                                          }
+                                                                          .input_of_apple_is_mango{                                                                           
+                                                                            width: 93%;
+                                                                          
+                                                                          }
+                                                                          #UUsername{
+                                                                            margin-bottom:10px;
+                                                                        }
+                                                                          .Tiles_of_title{
+                                                                            margin-bottom: 10px;
+                                                                          }
+                                                                          .Emial_input_section,.User_input_section,.Pass_input_section{
+                                                                            padding-left: 15px;
+                                                                            padding-top: 15px;
+                                                                            padding-right: 20px;
+                                                                            padding-bottom: 10px;
+                                                                          }
+                                                                          .inside_input_man{
+                                                                            font-size: 23px;
+                                                                            top:68px;
+                                                                            right:31px;
+                                                                          }
+                                                                          .img_change_button{
+                                                                            font-size: 12px;
+                                                                            padding: 5px;
+                                                                            max-width:80px;
+                                                                          }
+                                                                          
+                                                            /* welcome page media queries */
+
+                                                                            .apple_sun{
+                                                                              font-size: 25px;
+                                                                              margin-bottom:80px;
+                                                                            }
+                                                                            .apple_moon{
+                                                                              font-size: 25px;
+                                                                            }
+                                                                            .Apple_Tree{
+                                                                              margin-right: 45px;
+                                                                              margin-left: 45px;
+                                                                            }
+  
+                                                                        }
+                                                                        @media only screen and (max-width:383px){
+                                                                          .conditions {
+                                                                            font-size: 14px;
+                                                                          }
+                                                                          .inside_input_man{
+                                                                            font-size: 19px;
+                                                                          }
+                                                          /* welcome page media queries */
+
+                                                                          .apple_sun{
+                                                                            font-size: 21px;
+                                                                            margin-bottom:60px;
+                                                                            margin-top: 10px;
+                                                                          }
+                                                                          .apple_moon{
+                                                                            font-size: 24px;
+                                                                          }
+                                                                          .Apple_Tree{
+                                                                            margin-right: 40px;
+                                                                            margin-left: 40px;
+                                                                          }
+                                                                          /* .conditions */
+                                                                        }
+                                                                        @media only screen and (max-width:336px){
+                                                                          .img_change_button {
+                                                                            font-size: 10px;
+                                                                            padding: 5px;
+                                                                            max-width: 70px;
+                                                                          }
+                                                                          .Headdig{
+                                                                            margin-left: 5px;
+                                                                            margin-right: 5px;
+                                                                            font-size: 25px;
+                                                                          }
+                                                                          .Tiles_of_title{
+                                                                            font-size:17px;
+                                                                            margin-bottom:0px;
+                                                                          }
+                                                                          .guava{
+                                                                            margin-bottom:12px;
+                                                                          }
+                                                                        }
+
+
+
+
+
+
+
